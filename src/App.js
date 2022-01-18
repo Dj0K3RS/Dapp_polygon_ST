@@ -268,9 +268,10 @@ function App() {
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "var(--accent-text)", }}
                 >
-                  Excluding gas fees.
+                     First 1500 FREE MINT then 30 Matic per mint
+               
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
@@ -397,9 +398,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
+            We allow 1500/2500 NFTs on FREEMINT for public then 30 Matic per mint
           </s.TextDescription>
         </s.Container>
       </s.Container>
