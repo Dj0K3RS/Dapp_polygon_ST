@@ -201,7 +201,7 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+       
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
@@ -270,7 +270,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)", }}
                 >
-                     First 1500 FREE MINT then 30 Matic per mint
+                     First 2000 FREE MINT then 30 Matic per mint
                
                 </s.TextDescription>
                 <s.SpacerSmall />
@@ -388,8 +388,7 @@ function App() {
             }}
           >
             Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
-            Once you make the purchase, you cannot undo this action.
+            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. 
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
@@ -398,7 +397,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            We allow 1500/2500 NFTs on FREEMINT for public then 30 Matic per mint
+            We allow 2000/2500 NFTs on FREE MINT for public then 30 Matic per mint
           </s.TextDescription>
         </s.Container>
       </s.Container>
