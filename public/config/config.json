@@ -9,9 +9,9 @@
   "NFT_NAME": "SavagesTotsys_B&W ",
   "SYMBOL": "Totsy",
   "MAX_SUPPLY": 2500,
-  "WEI_COST": 10000000000000000000,
-  "DISPLAY_COST": 30,
-  "GAS_LIMIT": 570000,
+  "WEI_COST": 3,
+  "DISPLAY_COST": 0,
+  "GAS_LIMIT": 300000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/savagestotsys-b-w",
   "SHOW_BACKGROUND": true
