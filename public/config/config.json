@@ -10,7 +10,7 @@
   "SYMBOL": "Totsy",
   "MAX_SUPPLY": 2500,
   "WEI_COST": 31000000000000000000,
-  "DISPLAY_COST": 0,
+  "DISPLAY_COST": 30,
   "GAS_LIMIT": 3000000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/savagestotsys-b-w",
