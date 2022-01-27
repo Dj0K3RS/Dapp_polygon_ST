@@ -270,7 +270,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)", }}
                 >
-                     First 2000 FREE MINT then 30 Matic per mint
+                     
                
                 </s.TextDescription>
                 <s.SpacerSmall />
